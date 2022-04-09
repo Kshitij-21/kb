@@ -1,0 +1,417 @@
+body{
+    align-items: center;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+}
+
+.contain{
+    display: flex;
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contain img{
+    width: 90px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0%;
+    margin-left: 4px;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+
+ul a{
+    margin: 0 2px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.burger{
+    display: none;
+    padding-bottom: 3px;
+}
+
+.line{
+    width: 33px;
+    height: 4px;
+    background-color: rgb(6, 6, 6);
+    margin: 5px auto;
+}
+.container {
+    display: flex;
+    max-width: 1040px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    width: 390px;
+}
+
+.box h1 {
+    font-size: 40px;
+}
+
+#para1 {
+    font-size: 30px;
+}
+
+.para {
+    font-size: 20px;
+}
+
+#ali {
+    width: 46%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+#mail {
+    width: 320px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid rgb(226, 207, 207);
+}
+
+#subscribe {
+    width: 328px;
+    height: 35px;
+    padding: 1px 2px;
+    margin-top: 10px;
+    background-color: rgb(74 141 199);
+    font-size: 17px;
+    border-radius: 3px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#font {
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    max-width: 1040px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#arrow {
+    width: 50px;
+    position: absolute;
+    left: 20rem;
+    display: block;
+}
+
+.container2 {
+    display: flex;
+    max-width: 1040px;
+    margin: auto;
+    margin-top: 75px;
+    justify-content: space-between;
+}
+
+.boxes {
+    border: 2px solid whitesmoke;
+    border-radius: 7px;
+    width: 30%;
+    background-color: rgb(252 252 252);
+    cursor: pointer;
+    box-shadow: 0 4px 10px;
+}
+
+.boxes img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 30px auto;
+    border-radius: 4px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.boxes p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.container3 {
+    display: flex;
+    max-width: 1040px;
+    margin: auto
+}
+
+.explore {
+    width: 390px;
+    margin: auto;
+}
+
+.explore h2 {
+    font-size: 1.9rem;
+}
+
+.bho {
+    width: 70px;
+    height: 1px;
+    margin-left: 0%;
+    margin-top: 5px;
+    border: 2px solid rgb(74 141 199);
+}
+
+.firstcontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.one {
+    height: 90px;
+    display: flex;
+    background-color: #f4f4f4;
+    margin: 5px;
+    position: relative;
+    left: 0;
+    cursor: pointer;
+}
+
+.one img {
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    margin: auto;
+    padding: 15px;
+}
+
+.next {
+    font-weight: bolder;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.next2 {
+    margin-top: 2px;
+}
+
+.hey {
+    margin: 3px 4px;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.hey2 {
+    margin: 3px 4px;
+}
+
+.uff {
+    margin: 2px 1px;
+}
+
+#tab {
+    width: 50%;
+    height: 400px;
+    margin:auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.abe {
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    max-width: 1040px;
+    align-items: center;
+}
+
+.abemc {
+    width: 50%;
+}
+
+.abemc h1 {
+    font-size: 35px;
+}
+
+.last{
+    list-style: none;
+    padding: 0%;
+    flex-direction: column;
+}
+
+ul li {
+    font-size: 20px;
+    padding: 3px;
+}
+
+#j {
+    height: 20px;
+    padding: 5px;
+    width: 180px;
+}
+
+#get {
+    padding: 6px;
+    width: 110px;
+    background-color: rgb(74 141 199);
+    color: white;
+    font-size: 15px;
+}
+
+.chup {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.are {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1040px;
+    margin: auto;
+    background-color: #f4f4f4;
+    padding-bottom: 35px;
+}
+
+.bas {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gf {
+    height: 20px;
+    padding: 5px;
+    width: 96%;
+    margin: 4px 3px;
+}
+
+.chup h2 {
+    font-size: 27px;
+    position: relative;
+    left: 30px;
+}
+
+.chup p {
+    font-size: 20px;
+    margin: 0px 3px;
+    padding: 3px 1px;
+}
+
+#fd {
+    height: 35px;
+    padding: 5px;
+    width: 99%;
+    margin: 4px 3px;
+    background-color: rgb(74 141 199);
+    color: white;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: black;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer div {
+    color: white;
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.hogya {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 2px 100px;
+}
+
+.hogya li img {
+    width: 40px;
+    height: 40px;
+}
+
+@media(max-width:860px){
+    .contain{
+        flex-direction: column;
+    }
+    .contain img{
+        width: 60px;
+    }
+    .list{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+}
+@media(max-width:700px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    #mail{
+        width: 100%;
+    }
+    #subscribe {
+        width: 100%;
+    }
+    #ali{
+        width: 390px;
+    }
+    #font{
+        text-align: center;
+    }
+    .container2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .boxes{
+        width: 390px;
+        margin: 10px;
+    }
+    .container3{
+        flex-direction: column;
+    }
+    .abe{
+        flex-direction: column;
+    }
+    #tab{
+        width: 390px;
+    }
+    .are{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .hogya{
+        margin: auto;
+    }
+}
